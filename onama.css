@@ -1,0 +1,36 @@
+a {
+    color: black; 
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: bisque;
+    text-decoration: underline; 
+}
+
+h1 {
+    color: bisque;
+}
+
+p {
+    color: beige; 
+    line-height: 2.6;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+h1:hover {
+    transform: scale(0.9); 
+}
+body{
+    background-image: url('fotografije/light.webp');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 1.5em;
+    }
+}

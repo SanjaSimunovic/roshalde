@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    font-size: 16px;
+    font-family: cursive;
+    line-height: 1.5;
+
+}
+h1
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size:  60pt;;
+    text-shadow: 5px 5px 25px;
+    width: 100%;
+
+
+}
+body{
+    background-image: url('fotografije/bookstore.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 70%;
+    border: 3px;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    width: 100%;
+}
+header ul{
+    display: flex;
+}
+ul {
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: linear;
+}
+header nav ul li a {
+    color: bisque;
+    margin-left: 60px;
+    text-transform: uppercase;
+    position: relative;
+}
+header article {
+    color: beige;
+    padding: 200px 0px 200px 0px;
+
+}
+header p {
+    font-size: 24pt;
+    text-shadow: 4px 5px 5px;
+}
+ul li a:hover{color:black}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+@media only screen and (max-width: 800px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+}
